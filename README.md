@@ -12,7 +12,7 @@ This project implements a recommendation algorithm for YouTube videos. It filter
 Clone the repository
 npm install
 
-##How It Works
+## How It Works
 Mock User and Weights:
 
 A mock user is created with specific category interests.
