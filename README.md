@@ -12,19 +12,18 @@ This project implements a recommendation algorithm for YouTube videos. It filter
 Clone the repository
 npm install
 
-## How It Works
+##How It Works
+Mock User and Weights:
 
-1. **Mock User and Weights**:
-    - A mock user is created with specific category interests.
-    - Weights are assigned to various user interactions (e.g., likes, dislikes, watch percentage).
+A mock user is created with specific category interests.
+Weights are assigned to various user interactions (e.g., likes, dislikes, watch percentage).
+Filter Personalization:
 
-2. **Filter Personalization**:
-    - The `filterPersonalizaton` function filters videos based on user categories from `viewerPersonalization.json`.
+The filterPersonalizaton function filters videos based on user categories from viewerPersonalization.json.
+Calculate Weights:
 
-3. **Calculate Weights**:
-    - The `calculateWeight` function calculates a weight for each video based on user interactions and predefined weights.
+The calculateWeight function calculates a weight for each video based on user interactions and predefined weights.
+Get Top Ten Videos:
 
-4. **Get Top Ten Videos**:
-    - The `getTopTenVideos` function groups videos by their ID, calculates the average weight for each group, and retrieves the top 10 videos with the highest scores.
-
+The getTopTenVideos function groups videos by their ID, calculates the average weight for each group, and retrieves the top 10 videos with the highest scores.
 
